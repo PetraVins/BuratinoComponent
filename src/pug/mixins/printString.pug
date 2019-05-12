@@ -1,0 +1,26 @@
+template#print-string
+  style(type='text/css').
+    .print-string__content {
+      height: 100%;
+      max-height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+    .print-string__content.column {
+      flex-direction: column;
+    }
+    .print-string__item {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid lightgrey;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  .print-string
+    .print-string__content.js-container

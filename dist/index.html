@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title></title><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.4.4/polyfill.min.js"></script><link href="main.css" rel="stylesheet"></head><body><main class="page"><div class="page__container"><div class="page__body"><template id="print-string"><style type="text/css">.print-string__content {
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.print-string__content.column {
+  flex-direction: column;
+}
+.print-string__item {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  font-weight: bold;
+}</style><div class="print-string"><div class="print-string__content js-container"></div></div></template><print-string class="js-print-string" text="" layout="row" order="direct"></print-string></div><div class="page__sidebar js-settings"><aside class="sidebar"><h2 class="sidebar__title">Settings</h2><form class="sidebar__form"><div class="sidebar__form-group"><label class="sidebar__label" for="text-input">Введите текст</label><input class="sidebar__input js-settings-input" id="text-input" type="text" name="text"></div><div class="sidebar__form-group"><label class="sidebar__label" for="layout">Layout</label><select class="sidebar__select js-settings-layout" id="layout" name="layout"><option value="row">Inline</option><option value="col">Column</option></select></div><div class="sidebar__form-group"><label class="sidebar__label" for="order">Direction</label><select class="sidebar__select js-settings-order" id="order" name="order"><option value="direct">Direct</option><option value="reverse">Reverse</option><option value="random">Randomize</option></select></div></form></aside></div></div></main><script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script><script type="text/javascript" src="./js/main.js"></script><script type="text/javascript" src="./js/test.js"></script></body></html>
